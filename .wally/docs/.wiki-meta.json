@@ -1,0 +1,295 @@
+{
+  "generator": "wally-codewiki",
+  "language": "zh-CN",
+  "workspaceMode": "single-repo",
+  "generatedAt": "2026-11-26T12:00:00Z",
+  "commitHash": "14fea139ecbc1b7509d19a6d4fbcb83502c3be6a",
+  "branch": "chore/wally-init-20261126-c107",
+  "mode": "full",
+  "pageCount": 27,
+  "skippedHumanPages": [],
+  "driftWarnings": [],
+  "externalPages": [
+    ".wally/docs/apis/index.md",
+    ".wally/docs/apis/_template.md",
+    ".wally/docs/sqls/README.md",
+    ".wally/docs/unittest/unittest.md",
+    ".wally/docs/integration_test/integration_test.md",
+    ".wally/docs/devops/env.md",
+    ".wally/docs/devops/test-env-deploy.md"
+  ],
+  "pageOrder": [
+    "INDEX.md",
+    "overview/system-architecture.md",
+    "overview/business-architecture.md",
+    "overview/callchain-panorama.md",
+    "overview/glossary.md",
+    "architecture/index.md",
+    "architecture/module-dep-matrix.md",
+    "architecture/nosql-engine.md",
+    "architecture/sop-tooling.md",
+    "architecture/ide-integration-hooks.md",
+    "integrations/index.md",
+    "integrations/topology-and-mapping.md",
+    "integrations/downstream/git-subprocess.md",
+    "integrations/downstream/socket-wire-protocol.md",
+    "integrations/downstream/codex-collector.md",
+    "business/index.md",
+    "business/kv-command-workflow.md",
+    "business/sop-task-workflow.md",
+    "business/domain-models/index.md",
+    "contracts/api-reference.md",
+    "contracts/error-codes.md",
+    "contracts/configuration.md",
+    "operations/dev-and-test.md",
+    "operations/deployment-and-runtime.md",
+    "operations/runbook-and-observability.md",
+    "operations/pitfalls-and-adr.md",
+    "operations/boundary.md"
+  ],
+  "fileToDocs": {
+    "nosql.py": [
+      "overview/system-architecture.md",
+      "overview/callchain-panorama.md",
+      "overview/glossary.md",
+      "architecture/index.md",
+      "architecture/module-dep-matrix.md",
+      "architecture/nosql-engine.md",
+      "integrations/index.md",
+      "integrations/topology-and-mapping.md",
+      "integrations/downstream/socket-wire-protocol.md",
+      "business/index.md",
+      "business/kv-command-workflow.md",
+      "business/domain-models/index.md",
+      "contracts/api-reference.md",
+      "contracts/error-codes.md",
+      "contracts/configuration.md",
+      "operations/dev-and-test.md",
+      "operations/deployment-and-runtime.md",
+      "operations/runbook-and-observability.md",
+      "operations/pitfalls-and-adr.md",
+      "operations/boundary.md"
+    ],
+    "AGENTS.md": [
+      "overview/business-architecture.md"
+    ],
+    "README.md": [
+      "operations/dev-and-test.md"
+    ],
+    ".wally/config.json": [
+      "overview/system-architecture.md",
+      "overview/business-architecture.md",
+      "overview/glossary.md",
+      "architecture/module-dep-matrix.md",
+      "architecture/sop-tooling.md",
+      "business/sop-task-workflow.md",
+      "business/domain-models/index.md",
+      "contracts/error-codes.md",
+      "contracts/configuration.md",
+      "operations/dev-and-test.md",
+      "operations/deployment-and-runtime.md",
+      "operations/runbook-and-observability.md",
+      "operations/pitfalls-and-adr.md",
+      "operations/boundary.md"
+    ],
+    ".wally/install-state.json": [
+      "overview/glossary.md",
+      "architecture/sop-tooling.md",
+      "business/sop-task-workflow.md",
+      "business/domain-models/index.md",
+      "contracts/configuration.md",
+      "operations/deployment-and-runtime.md",
+      "operations/boundary.md"
+    ],
+    ".wally/core/scope.md": [
+      "overview/business-architecture.md"
+    ],
+    ".wally/profiles/project.md": [
+      "overview/business-architecture.md",
+      "operations/deployment-and-runtime.md"
+    ],
+    ".wally/docs/devops/test-env-deploy.md": [
+      "operations/deployment-and-runtime.md"
+    ],
+    ".wally/scripts/create_task.py": [
+      "overview/system-architecture.md",
+      "overview/callchain-panorama.md",
+      "overview/glossary.md",
+      "architecture/index.md",
+      "architecture/module-dep-matrix.md",
+      "architecture/sop-tooling.md",
+      "business/index.md",
+      "business/sop-task-workflow.md",
+      "business/domain-models/index.md",
+      "contracts/api-reference.md",
+      "contracts/error-codes.md",
+      "operations/dev-and-test.md",
+      "operations/deployment-and-runtime.md",
+      "operations/pitfalls-and-adr.md"
+    ],
+    ".wally/scripts/sop_context.py": [
+      "overview/system-architecture.md",
+      "overview/callchain-panorama.md",
+      "overview/glossary.md",
+      "architecture/index.md",
+      "architecture/module-dep-matrix.md",
+      "architecture/sop-tooling.md",
+      "integrations/index.md",
+      "integrations/topology-and-mapping.md",
+      "integrations/downstream/git-subprocess.md",
+      "business/index.md",
+      "business/sop-task-workflow.md",
+      "business/domain-models/index.md",
+      "contracts/api-reference.md",
+      "contracts/error-codes.md",
+      "operations/dev-and-test.md",
+      "operations/runbook-and-observability.md",
+      "operations/pitfalls-and-adr.md",
+      "operations/boundary.md"
+    ],
+    ".wally/versions/3f84e7245abcc75d/core/workflow.md": [
+      "overview/business-architecture.md",
+      "business/sop-task-workflow.md"
+    ],
+    ".wally/versions/3f84e7245abcc75d/core/gates.md": [
+      "overview/business-architecture.md",
+      "business/sop-task-workflow.md"
+    ],
+    ".wally/versions/3f84e7245abcc75d/core/knowledge.md": [
+      "operations/pitfalls-and-adr.md",
+      "operations/boundary.md"
+    ],
+    ".claude/hooks/_token_common.py": [
+      "overview/system-architecture.md",
+      "overview/callchain-panorama.md",
+      "architecture/index.md",
+      "architecture/module-dep-matrix.md",
+      "architecture/ide-integration-hooks.md",
+      "integrations/index.md",
+      "integrations/topology-and-mapping.md",
+      "business/index.md",
+      "business/domain-models/index.md",
+      "contracts/error-codes.md",
+      "contracts/configuration.md",
+      "operations/runbook-and-observability.md",
+      "operations/pitfalls-and-adr.md"
+    ],
+    ".claude/hooks/claude_token_collect.py": [
+      "architecture/ide-integration-hooks.md",
+      "contracts/configuration.md"
+    ],
+    ".codex/hooks/codex_token_collect.py": [
+      "architecture/ide-integration-hooks.md",
+      "integrations/downstream/codex-collector.md",
+      "contracts/api-reference.md",
+      "contracts/configuration.md"
+    ],
+    ".cursor/hooks/cursor_token_collect.py": [
+      "architecture/ide-integration-hooks.md",
+      "contracts/configuration.md"
+    ],
+    ".codebuddy/hooks/stop_token_collect.py": [
+      "architecture/ide-integration-hooks.md",
+      "contracts/configuration.md"
+    ],
+    ".claude/scripts/token_report.py": [
+      "overview/callchain-panorama.md",
+      "architecture/index.md",
+      "architecture/module-dep-matrix.md",
+      "architecture/ide-integration-hooks.md",
+      "integrations/index.md",
+      "integrations/topology-and-mapping.md",
+      "integrations/downstream/git-subprocess.md",
+      "integrations/downstream/codex-collector.md",
+      "business/index.md",
+      "business/domain-models/index.md",
+      "contracts/api-reference.md",
+      "contracts/error-codes.md",
+      "contracts/configuration.md",
+      "operations/dev-and-test.md",
+      "operations/runbook-and-observability.md"
+    ],
+    ".claude/settings.json": [
+      "contracts/api-reference.md"
+    ],
+    ".codex/hooks.json": [
+      "contracts/api-reference.md"
+    ],
+    ".cursor/hooks.json": [
+      "contracts/api-reference.md"
+    ],
+    ".codebuddy/settings.json": [
+      "contracts/api-reference.md"
+    ]
+  },
+  "repoDeps": [],
+  "moduleTree": [
+    {
+      "page": "architecture/nosql-engine.md",
+      "sourcePaths": ["nosql.py"],
+      "dependsOn": [],
+      "usedBy": ["business/kv-command-workflow.md", "integrations/downstream/socket-wire-protocol.md", "contracts/api-reference.md"]
+    },
+    {
+      "page": "architecture/sop-tooling.md",
+      "sourcePaths": [".wally/scripts/create_task.py", ".wally/scripts/sop_context.py", ".wally/config.json", ".wally/install-state.json"],
+      "dependsOn": [".wally/versions/3f84e7245abcc75d/core/"],
+      "usedBy": ["business/sop-task-workflow.md", "integrations/downstream/git-subprocess.md", "contracts/error-codes.md"]
+    },
+    {
+      "page": "architecture/ide-integration-hooks.md",
+      "sourcePaths": [".claude/hooks/_token_common.py", ".claude/hooks/claude_token_collect.py", ".codex/hooks/codex_token_collect.py", ".cursor/hooks/cursor_token_collect.py", ".codebuddy/hooks/stop_token_collect.py", ".claude/scripts/token_report.py"],
+      "dependsOn": [],
+      "usedBy": ["integrations/downstream/codex-collector.md", "operations/runbook-and-observability.md"]
+    },
+    {
+      "page": "integrations/downstream/git-subprocess.md",
+      "sourcePaths": [".wally/scripts/sop_context.py", ".claude/scripts/token_report.py"],
+      "dependsOn": ["architecture/sop-tooling.md", "architecture/ide-integration-hooks.md"],
+      "usedBy": ["contracts/error-codes.md", "business/sop-task-workflow.md"]
+    },
+    {
+      "page": "integrations/downstream/socket-wire-protocol.md",
+      "sourcePaths": ["nosql.py"],
+      "dependsOn": ["architecture/nosql-engine.md"],
+      "usedBy": ["contracts/api-reference.md", "business/kv-command-workflow.md"]
+    },
+    {
+      "page": "integrations/downstream/codex-collector.md",
+      "sourcePaths": [".claude/scripts/token_report.py", ".codex/hooks/codex_token_collect.py"],
+      "dependsOn": ["architecture/ide-integration-hooks.md"],
+      "usedBy": ["operations/runbook-and-observability.md"]
+    },
+    {
+      "page": "business/kv-command-workflow.md",
+      "sourcePaths": ["nosql.py"],
+      "dependsOn": ["architecture/nosql-engine.md"],
+      "usedBy": ["contracts/error-codes.md", "business/domain-models/index.md"]
+    },
+    {
+      "page": "business/sop-task-workflow.md",
+      "sourcePaths": [".wally/scripts/create_task.py", ".wally/scripts/sop_context.py", ".wally/config.json", ".wally/install-state.json", ".wally/versions/3f84e7245abcc75d/core/workflow.md", ".wally/versions/3f84e7245abcc75d/core/gates.md"],
+      "dependsOn": ["architecture/sop-tooling.md", "integrations/downstream/git-subprocess.md"],
+      "usedBy": ["contracts/configuration.md", "operations/runbook-and-observability.md"]
+    },
+    {
+      "page": "contracts/api-reference.md",
+      "sourcePaths": ["nosql.py", ".wally/scripts/create_task.py", ".wally/scripts/sop_context.py", ".claude/scripts/token_report.py", ".codex/hooks/codex_token_collect.py", ".claude/settings.json", ".codex/hooks.json", ".cursor/hooks.json", ".codebuddy/settings.json"],
+      "dependsOn": ["architecture/sop-tooling.md", "architecture/ide-integration-hooks.md"],
+      "usedBy": ["contracts/error-codes.md", "INDEX.md"]
+    }
+  ],
+  "verification": {
+    "passed": true,
+    "unresolvedRefs": 0,
+    "truncatedPages": 0,
+    "duplicatePairs": 0,
+    "gates": {
+      "G1_header_human_and_meta": "PASS",
+      "G2_coverage_and_contracts": "PASS",
+      "G3_closure_and_anchoring": "PASS",
+      "G4_depth_dedup_and_lang": "PASS",
+      "G5_mermaid_safety": "PASS"
+    }
+  }
+}
