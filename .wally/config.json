@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "deploy": {
+    "command": "",
+    "guide": ".wally/docs/devops/test-env-deploy.md",
+    "verify": "Not configured: no deployment verification (effective-version, readiness, or health check) is defined in this repository and none can be derived from source.",
+    "rollback": "Not configured: no rollback version, command, trigger, or data-cleanup procedure is defined in this repository and none can be derived from source.",
+    "readiness": "pending",
+    "gaps": [
+      "No real deploy entry command exists: there is no Makefile, Dockerfile/Compose file, CI workflow, package manifest, or deploy script; README.md has no body and nosql.py (a local socket server on localhost:50505) is the only source file. No deploy command is guessed.",
+      "No target test environment is defined (no environment id/owner, host, access, required services, versions, or deployment scope).",
+      "No credential or secret acquisition method is documented.",
+      "No deployment verification or rollback procedure/criteria is defined."
+    ]
+  },
+  "it": {
+    "command": "",
+    "guide": ".wally/docs/integration_test/integration_test.md",
+    "success_criteria": "Not configured: no integration test acceptance criteria, assertions, or aggregate result gates are defined in this repository and none can be derived from source.",
+    "readiness": "pending",
+    "gaps": [
+      "No real integration test entry command exists: there are no test files, test framework, dependency manifest (pyproject.toml/requirements.txt), CI workflow, or test scripts; README.md has no body and no test runner is configured. No test command is guessed.",
+      "No target test environment, required services/data, or test isolation is defined.",
+      "No credential or configuration acquisition method is documented.",
+      "No integration test success/acceptance criteria or result gates are defined."
+    ]
+  }
+}
